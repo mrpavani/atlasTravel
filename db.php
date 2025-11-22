@@ -1,8 +1,8 @@
 <?php
 // db.php
-$host = 'localhost';
-$db   = 'leste_europeu_db';
-$user = 'root'; // Seu usuário do MySQL
+$host = 'mysql-182367286.hostinger.com';
+$db   = 'u182367286_atlasTravel';
+$user = 'u182367286_atlasTravel'; // Seu usuário do MySQL
 $pass = 'm@P599152';     // Sua senha do MySQL
 $charset = 'utf8mb4';
 
