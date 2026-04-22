@@ -112,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <textarea name="nome_pratos" rows="2" placeholder="Gastronomia (Texto)" class="w-full border p-2 rounded"><?= $dados['nome_pratos'] ?? '' ?></textarea>
 
-            <div class="border p-4 bg-gray-50"><label class="font-bold">Bandeira</label> <input type="file" name="bandeira"></div>
+            <div class="border p-4 bg-blue-50 rounded-lg"><label class="font-bold text-lg text-blue-900 block mb-2">🏛️ Foto da Residência Presidencial / Sede do Governo</label> <input type="file" name="bandeira" class="w-full bg-white p-2 border rounded"> <span class="text-sm text-blue-700 block mt-2">Esta imagem substituirá a antiga "bandeira" e aparecerá como grande fundo de destaque no topo da página do país. Recomenda-se imagem com formato paisagem (horizontal).</span></div>
 
             <div class="border p-4 bg-gray-50">
                 <h3 class="font-bold mb-2">Pontos Turísticos</h3>
